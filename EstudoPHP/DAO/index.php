@@ -46,12 +46,13 @@ $usuario->update("professor", "pardal@12");
 
 echo $usuario;
 
-*/
+
 $usuario = new Usuario();
 $usuario->loadById(7);
 $usuario->delete();
 echo $usuario;
 
+*/
 
 
 
