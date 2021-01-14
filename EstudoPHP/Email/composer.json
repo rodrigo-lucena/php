@@ -1,0 +1,15 @@
+{
+	"name": "lucena/composer",
+	"description": "Aula de email",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Rodrigo Lucena",
+			"email": "rodrigo.lucena09@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"phpmailer/phpmailer": "^6.2"
+	}
+}
