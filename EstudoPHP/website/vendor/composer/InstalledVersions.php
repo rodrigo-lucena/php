@@ -30,11 +30,11 @@ private static $installed = array (
     array (
     ),
     'reference' => '5e1541a784225965906a718a79a519a04064e5bc',
-    'name' => 'lucena/composer',
+    'name' => '__root__',
   ),
   'versions' => 
   array (
-    'lucena/composer' => 
+    '__root__' => 
     array (
       'pretty_version' => 'dev-master',
       'version' => 'dev-master',
@@ -43,14 +43,14 @@ private static $installed = array (
       ),
       'reference' => '5e1541a784225965906a718a79a519a04064e5bc',
     ),
-    'monolog/monolog' => 
+    'slim/slim' => 
     array (
-      'pretty_version' => '1.0.2',
-      'version' => '1.0.2.0',
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'b704c49a3051536f67f2d39f13568f74615b9922',
+      'reference' => '3e95c9abbc57a8f023ab4dacebcab9dae4d9f1f0',
     ),
   ),
 );

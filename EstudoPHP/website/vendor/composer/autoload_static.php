@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb3c7bd25f4b5fadd37ad44172e50c933
+class ComposerStaticInitfea669ae14643050eb5625b2d5decd00
 {
     public static $prefixesPsr0 = array (
-        'M' => 
+        'S' => 
         array (
-            'Monolog' => 
+            'Slim' => 
             array (
-                0 => __DIR__ . '/..' . '/monolog/monolog/src',
+                0 => __DIR__ . '/..' . '/slim/slim',
             ),
         ),
     );
@@ -23,8 +23,8 @@ class ComposerStaticInitb3c7bd25f4b5fadd37ad44172e50c933
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInitb3c7bd25f4b5fadd37ad44172e50c933::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitb3c7bd25f4b5fadd37ad44172e50c933::$classMap;
+            $loader->prefixesPsr0 = ComposerStaticInitfea669ae14643050eb5625b2d5decd00::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitfea669ae14643050eb5625b2d5decd00::$classMap;
 
         }, null, ClassLoader::class);
     }
